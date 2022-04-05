@@ -1,0 +1,674 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/************************>>>>> Start css Home<<<<<<< **************************/
+
+
+
+.nav
+{
+    background-color: rgba(0, 0, 0 , .5);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    padding: 15px;
+}
+.logo
+{
+    /* background-color: #09c; */
+    width: 10%;
+}
+.nav ul
+{
+    /* background-color: yellow; */
+    width: 70%;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav a{
+    
+    color: #fff;
+    transition: .5s all;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 15px;
+    line-height: 25px;
+}
+
+.nav a:hover
+{
+  color: #ff305b
+}
+
+.nav span
+{
+  color: #ff305b;
+}
+.logo a
+{
+    color: #ff305b;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 18px 0;
+}
+
+
+.home {
+  /* background-color: tomato; */
+  background-image: url(img/slider/slider-01.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.home-content {
+  /* background-color: #09c; */
+  width: 100%;
+  text-align: center;
+}
+.home-content p,
+.home-content h4 {
+  padding: 10px 0;
+  color: #fff;
+}
+
+.home-content h1 {
+  color: #ff305b;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+/************************>>>>> End css Home<<<<<<< **************************/
+
+/************************>>>>> Start css About<<<<<<< **************************/
+
+.about {
+  /* background-color: tomato; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-container {
+  /* background-color: royalblue; */
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-style-efect {
+  /* background-color: #09c; */
+  width: 30%;
+  border: 10px solid gray;
+  position: relative;
+}
+
+.layer-relative {
+  position: relative;
+  top: 25px;
+  left: 15px;
+  overflow: hidden;
+}
+
+.layer-absoulte {
+  background-color: rgba(0, 0, 0, 0.7);
+
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+.layer-relative:hover .layer-absoulte {
+  top: 0;
+}
+
+.img-style-efect img {
+  width: 100%;
+}
+
+.about-content {
+  /* background-color: yellowgreen; */
+  width: 50%;
+}
+
+.about-info {
+  /* background-color: violet; */
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px;
+}
+
+.about-info ul {
+  list-style-type: none;
+  /* background-color: yellow; */
+  /* padding: 10px; */
+}
+
+.about-info li {
+  padding: 10px;
+}
+
+.about-content button {
+  border: none;
+  background-color: #ff305b;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.about-content .line-space {
+  line-height: 1.5em;
+  border-bottom: 1px dashed black;
+}
+
+/************************>>>>> End css Home<<<<<<< **************************/
+
+/************************>>>>> Start css Servise<<<<<<< **************************/
+
+.servise {
+  background-color: #f1f1f1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.servise-container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 20px;
+  align-content: space-around;
+}
+
+.servise-container h2 {
+  width: 100%;
+  font-size: 40px;
+}
+
+.margin-parent {
+  /* background-color: yellowgreen; */
+  width: 25%;
+  padding: 30px 20px;
+
+  transition: all 0.5s;
+}
+
+.servise-content {
+  /* background-color: #09c; */
+  padding: 30px;
+}
+
+.servise-content p {
+  margin-top: 20px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.margin-parent:hover {
+  background-color: #fff;
+}
+
+/************************>>>>> End css Servise<<<<<<< **************************/
+
+/************************>>>>> Start css Protfolio<<<<<<< **************************/
+
+.portfolio {
+  /* background-color: tomato; */
+  display: flex;
+  justify-content: center;
+}
+.portfolio-container {
+  /* background-color: #09c; */
+  width: 90%;
+  margin-top: 20px;
+}
+.portfolio-head {
+  /* background-color: yellowgreen; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-head h2 {
+  margin-top: 20px;
+}
+.portfolio-menu {
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-menu a {
+  color: black;
+}
+
+.portfolio-menu-all-red {
+  color: #ff305b;
+}
+.portfolio-menu ul {
+  display: flex;
+
+  padding: 15px;
+}
+.portfolio-menu li {
+  list-style-type: none;
+  padding: 15px;
+}
+
+.portfolio-menu a {
+  text-decoration: none;
+}
+
+.portfolio-img {
+  /* background-color: yellow; */
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.portfolio-img-margin {
+  /* background-color: royalblue; */
+  display: flex;
+  justify-content: center;
+  width: 33.3333%;
+  padding: 20px;
+}
+
+.portfolio-img-content {
+  /* background-color: turquoise; */
+  position: relative;
+}
+
+.portfolio-img img {
+  width: 100%;
+}
+
+.layer-img {
+  background-color: #555555;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.portfolio-img-content:hover .layer-img {
+  opacity: 0.7;
+}
+
+.portfolio-footer {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  height: 30vh;
+  margin-top: 20px;
+}
+
+.portfolio-footer-container {
+  /* background-color: turquoise; */
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.portfolio-footer-content {
+  /* background-color: violet; */
+  width: 25%;
+}
+
+.portfolio-footer-content span {
+  color: #555555;
+  font-size: 16px;
+}
+.portfolio-footer-content h4 {
+  padding: 20px;
+}
+
+/************************>>>>> End css Protfolio<<<<<<< **************************/
+
+.section5 {
+  /* background-color: tomato; */
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.section5-container {
+  /* background-color: turquoise; */
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* .title {
+  background-color: yellow;
+} */
+
+.feedback {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  height: 50vh;
+  border-radius: 10px;
+}
+
+.feedback-img-left {
+  /* background-color: violet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.feedback-content {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 70%;
+}
+
+.feedback-content p {
+  padding: 10px 0;
+  font-style: italic;
+  color: #000000;
+}
+
+.feedback-content h4 {
+  padding: 10px 0;
+}
+
+.feedback-content a {
+  color: #000000;
+
+  width: 10%;
+}
+
+.feedback-img-left img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+.section6 {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.blog-containr {
+  /* background-color: turquoise; */
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+
+  align-content: space-around;
+}
+
+.blog-title {
+  /* background-color: gray; */
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.blog-content-parent {
+  /* background-color: greenyellow; */
+  width: 30%;
+  display: flex;
+  padding: 10px;
+}
+
+.content-child {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.vidoe-youtube {
+  position: relative;
+  top: 0;
+  overflow: hidden;
+}
+
+.content-child img {
+  width: 100%;
+}
+
+.content-child iframe {
+  width: 100%;
+}
+
+.flex-content-test {
+  /* background-color: yellow; */
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.content-child h6 {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #555555;
+  line-height: 25px;
+  padding: 10px;
+}
+
+.content-child h3 {
+  font-size: 24px;
+  line-height: 26px;
+  transition: all 0.5s;
+  padding: 10px;
+}
+
+.content-child h3:hover {
+  color: #ff305b;
+}
+
+.content-child p {
+  line-height: 25px;
+  color: #555555;
+  padding: 10px;
+}
+
+.content-child .hover-a:hover {
+  color: #ff305b;
+}
+
+.hover-a {
+  color: #555555;
+  transition: all 0.5s;
+}
+
+
+
+
+.section-7
+{
+  /* background-color: #ccc; */
+  overflow: auto;
+  margin-top: 20px;
+}
+
+.container
+{
+  /* background-color: tomato; */
+  width:90%;
+  margin: 20px auto;
+  
+}
+
+
+
+.section-7 form
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  /* background-color: violet; */
+  /* height: 100vh; */
+}
+
+
+.container h2
+{
+  /* background-color: turquoise; */
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 30px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.container h2:after
+{
+  content: "";
+  /* background-color: #ff305b; */
+  border-bottom: #ff305b 2px solid;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 200px;
+  height: 2px;
+  transform: translateX(-50%);
+  margin: 8px;
+}
+
+.container h2::before
+{
+  content: "";
+  
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 100px;
+  height: 2px;
+  transform: translateX(-50%);
+  border-top: 1px solid #ff305b;
+  border-bottom: 1px solid #ff305b;
+  padding: 5px;
+  margin: 5px;
+}
+
+.name-email-label input[type=text]
+{
+  width: 50%;
+  padding: 10px;
+  /* background-color: rosybrown; */
+  margin: 10px;
+  border-radius: 5px;
+}
+
+
+
+.content-form
+{
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: yellow; */
+  padding: 20px;
+  
+}
+
+.name-email-label
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sub-msg-btn-label
+{
+  width: 100%;
+  /* background-color: salmon; */
+  padding: 10px;
+  
+}
+.sub-msg-btn-label input , .sub-msg-btn-label textarea
+{
+  border-radius: 4px;
+}
+
+
+.width-100
+{
+  width: 100%;
+  padding: 10px;
+}
+
+.subject-label
+{
+  width: 100%;
+  
+}
+
+textarea
+{
+  width: 100%;
+}
+
+.padding-10
+{
+  margin: 20px 0px;
+}
+
+.sub-msg-btn-label button
+{
+  background-color: #ff305b;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+
+
+h5{
+  background-color: salmon;
+  text-align: center;
+  height: 50vh;
+  position: relative;
+}
+
+
+
+
+
+
